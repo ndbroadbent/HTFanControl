@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30104.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HTFanControl", "HTFanControl\HTFanControl.csproj", "{0CD5C424-C125-4389-9151-6805035B38CD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FanTrayIcon", "FanTrayIcon\FanTrayIcon.csproj", "{3754A290-418A-41C5-9DA2-7CDFFE8B8B64}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

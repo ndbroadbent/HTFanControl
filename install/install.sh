@@ -4,11 +4,11 @@ case $(uname -m) in
 	*"arm"*)
 	file="HTFanControl_RasPi.zip"
 	;;
-	
+
 	*"aarch"*)
 	file="HTFanControl_RasPi64.zip"
 	;;
-	
+
 	*"x86_64"*)
 	file="HTFanControl_Linux.zip"
 	;;

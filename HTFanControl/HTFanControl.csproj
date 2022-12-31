@@ -80,9 +80,4 @@
     <PackageReference Include="SoundFingerprinting" Version="8.5.1" />
     <PackageReference Include="SoundFingerprinting.Emy" Version="8.5.1" />
   </ItemGroup>
-
-  <ItemGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseWin|AnyCPU' Or '$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-	<ProjectReference Include="..\FanTrayIcon\FanTrayIcon.csproj" />
-  </ItemGroup>
-
 </Project>

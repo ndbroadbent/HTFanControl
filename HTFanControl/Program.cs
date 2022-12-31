@@ -48,9 +48,6 @@ namespace HTFanControl
             if (ConfigHelper.GetOS() == "win")
             {
                 ConfigHelper.SetupWin(port, instanceName);
-#if (RELEASE || DEBUG) 
-                Task.Factory.StartNew(() => new FanTrayIcon.TrayIcon(ConfigHelper.GetIP(), port, instanceName));
-#endif
             }
             else
             {
